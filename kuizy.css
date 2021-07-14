@@ -1,0 +1,53 @@
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+.under{
+  font-weight: bold;
+}
+.under:after {
+  display: block;
+  margin-top: 10px;
+  width: 120px;
+  height: 2px;
+  background-color: #00ab36;
+  content: '';
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  display: block;
+  border: 1px solid #ebebeb;
+  font-weight: 600;
+  padding: 13px 0;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.cantclick{
+  pointer-events: none;
+}
+
+.correct{
+  background-color: #2A7CFE;
+  color: white;
+}
+
+.wrong{
+  background-color: #FE5128;
+  color: white;
+}
+
+.correct_message{
+  display: none;
+}
+.uncorrect_message{
+  display: none;
+}
